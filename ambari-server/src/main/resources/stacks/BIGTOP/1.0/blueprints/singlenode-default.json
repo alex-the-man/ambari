@@ -12,15 +12,6 @@
                     "name" : "NAMENODE"
                 },
                 {
-                    "name" : "SUPERVISOR"
-                },
-                {
-                    "name" : "AMBARI_SERVER"
-                },
-                {
-                    "name" : "APP_TIMELINE_SERVER"
-                },
-                {
                     "name" : "HDFS_CLIENT"
                 },
                 {
@@ -46,12 +37,6 @@
                 },
                 {
                     "name" : "MAPREDUCE2_CLIENT"
-                },
-                {
-                    "name" : "POSTGRESQL_SERVER"
-                },
-                {
-                    "name" : "DRPC_SERVER"
                 }
             ],
             "cardinality" : "1"
@@ -59,7 +44,7 @@
     ],
     "Blueprints" : {
         "blueprint_name" : "blueprint-singlenode-default",
-        "stack_name" : "ODPi",
+        "stack_name" : "BIGTOP",
         "stack_version" : "1.0"
     }
 }
